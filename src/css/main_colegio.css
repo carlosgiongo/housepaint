@@ -1,0 +1,420 @@
+body{
+    overflow-x: hidden;
+}
+
+.coluna-logo img{
+    height: 130px;
+    margin-left: 60px;
+}
+
+.no-p{
+    padding: 0px !important;
+}
+
+.coluna-logo {
+    justify-content: center;
+}
+
+.coluna-nav{
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.coluna-nav a{
+    text-decoration: none;
+    padding: 6px;
+    color: #1B3786
+}
+
+.section-o-colegio{
+    background-size: 60%;
+    background-position: left -360px center;
+    background-repeat: no-repeat;
+}
+
+.container-reduzido{
+    max-width: 850px;
+}
+
+.o-colegio{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.o-colegio h1{
+    font-weight: 800;
+    font-size: 64px;
+    color: #1B3786;
+}
+
+.o-colegio p{
+    color: #1B3786;
+    font-size: 30px;
+    padding-top: 8px;
+    font-weight: 200;
+}
+
+.o-colegio button{
+    background-color: #FF4E1F;
+    border-radius: 16px;
+    color: #ffff;
+    border-style: none;
+    padding: 6px;
+    margin-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.ensino-buttons{
+    background-color: #1B3786;
+}
+
+.button-div{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.button-div button{
+    border-radius: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FF4E1F;
+    background-color: transparent;
+    color: #ffff;
+    margin: 20px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.section-diferenciais{
+    text-align: center;
+    margin-right: 40px;
+    text-align: left;
+}
+
+.section-diferenciais button{
+    background-color: #FF4E1F;
+    border-radius: 16px;
+    color: #ffff;
+    border-style: none;
+    padding: 6px;
+    margin-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 60px;
+}
+
+.section-diferenciais h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: #1B3786;
+    text-align: left;
+}
+
+.section-diferenciais p{
+    color: #1B3786;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-weight: 200;
+}
+
+.container-com-overfow{
+    overflow: hidden;
+    max-height: 650px;
+}
+
+.section-banner-girl{
+    max-width: 380px;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.section-banner-girl img{
+    height: 600px;
+}
+
+.container-contato{
+    background-color: #FF4E1F;
+}
+
+.titulo-contato{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titulo-contato h1{
+    color: #ffff;
+    font-weight: 700;
+}
+
+.input-contato-group input, textarea, select, option{
+    border-radius: 16px;
+    border-style: none;
+    margin: 7px;
+    text-indent: 7px;
+    width: 90%;
+    padding: 4px;
+    resize: none;
+}
+
+.input-contato-group input{
+    height: 33px !important;
+}
+
+.input-contato-group{
+    width: 100%;
+    text-align: end;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #FF4E1F;
+    opacity: 1; /* Firefox */
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #FF4E1F;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #FF4E1F;
+}
+
+.input-contato-group button{
+    background-color: #ffff;
+    border-style: none;
+    color: #FF4E1F;
+    border-radius: 12px;
+    padding: 6px;
+    margin-right: 10px;
+    width: 70px;
+}
+
+.conteudo-do-footer{
+    color: #ffff;
+}
+
+.footer{
+    background-color: #1B3786;
+}
+
+.section-mapa{
+    margin-left: 30px;
+    height: 340px;
+}
+
+.section-mapa iframe{
+    border-radius: 30px;
+}
+
+.icones img{
+    height: 29px;
+    margin: 3px;
+}
+
+.icones-topo{
+    margin-left: 16px;
+}
+
+.icones-topo img{
+    height: 22px;
+    margin: 3px;
+}
+
+.conteudo-do-footer{
+    padding-top: 30px;
+    max-width: 1180px;
+    padding-bottom: 20px;
+}
+
+.telefone-footer{
+    color: #ffff;
+    margin-top: 18px;
+}
+
+.telefone-footer h1{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.telefone-footer a{
+    text-decoration: underline;
+    color: white;
+}
+
+.politica-footer p{
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.politica-footer a{
+    color: #ffff;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 0px !important;
+}
+
+.subcli{
+    color: gold;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+#hamb-menu{
+    display: none;
+}
+
+#tela-lateral a{
+    text-decoration: none !important;
+    color: #1B3786 !important;
+}
+
+@media (max-width: 992px){
+    #hamb-menu{
+        display: flex !important;
+    }
+
+    .coluna-nav{
+        display: none !important;
+    }
+
+    .button-div{
+        flex-wrap: wrap;
+    }
+
+    .container-com-overfow{
+        overflow: unset;
+        max-height: unset;
+        overflow-x: hidden;
+    }
+
+    .section-banner-girl img{
+        height: 430px;
+        margin-left: -120px;
+    }
+
+    .alternative-diferenciais{
+        justify-content: center !important;
+    }
+
+    .section-diferenciais {
+        margin-top: 40px;
+        max-width: unset;
+        text-align: center !important;
+        margin-right: unset;
+    }
+
+    .section-diferenciais h1 {
+        text-align: center;
+    }
+
+    .section-diferenciais p {
+        text-align: center;
+    }
+
+    .section-mapa{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: unset;
+    }
+}
+
+@media (max-width: 600px){
+    .section-o-colegio{
+        background-size: 120%;
+        background-position: left -530px center;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 430px){
+    .subcli{
+        font-size: 15px;
+    }
+
+    .coluna-logo img{
+        height: 40px;
+    }
+
+    .o-colegio h1 {
+        font-size: 35px;
+    }
+
+    .o-colegio p {
+        font-size: 15px;
+    }
+
+    .button-div button {
+        font-size: 20px;
+    }
+
+    .section-diferenciais p {
+        font-size: 15px;
+    }
+
+    .section-diferenciais h1 {
+        font-size: 32px;
+    }
+    
+    .section-diferenciais button {
+        margin-left: unset;
+    }
+
+    .section-banner-girl img {
+        height: 260px;
+    }
+
+    .input-contato-group {
+        margin-right: unset;
+    }
+
+    #coluna-logo{
+        margin-top: unset !important;
+        margin-bottom: unset !important;
+    }
+
+    .telefone-footer h1{
+        font-size: 20px;
+    }
+
+    .politica-footer p {
+        font-size: 12px;
+    }
+
+    .icones img {
+        height: 27px;
+    }
+
+    .telefone-footer p{
+        font-size: 11px;
+    }
+
+    .section-mapa iframe{
+        width: 150% !important;
+        height: 115% !important;
+    }
+
+    .section-mapa {
+        margin-left: -50px;
+    }
+
+    .container-contato{
+        overflow: hidden;
+    }
+
+    .section-banner-girl {
+        margin-top: 35px;
+    }
+
+    .section-o-colegio{
+        background-size: 120%;
+        background-position: left -530px center;
+        background-repeat: no-repeat;
+    }
+}
