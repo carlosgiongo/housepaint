@@ -1,2 +1,1 @@
-Projeto baseado em um dos meus templates na Vox (Obviamente com muita coisa alterada, mas as clases foram pouco modificadas, por isso dos nomes estranhos).
-Todo crédito a Fabiane Pimmel - Designer (antes de eu destruir o design dela) 
+
